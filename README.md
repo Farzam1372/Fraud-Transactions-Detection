@@ -6,7 +6,7 @@ This project aims to detect fraudulent credit card transactions using machine le
 
 ## Aim
 
-- Develop a robust model for fraud detection.
+- Developed model for fraud detection.
 - Train and evaluate multiple machine learning models.
 - Select the best model based on evaluation metrics.
 
