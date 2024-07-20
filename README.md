@@ -18,6 +18,15 @@ This project aims to detect fraudulent credit card transactions using machine le
 4. **Visualization**: PCA for data distribution and model performance visualization.
 5. **Conclusion**: Summarizing and recommending the best model.
 
+## Data set
+
+The dataset includes credit card transactions from September 2013 by European cardholders, spanning two days with 492 frauds out of 284,807 transactions (0.172% fraud rate). All input variables are numerical and derived from a PCA transformation, except 'Time' and 'Amount'. 'Time' is the seconds elapsed since the first transaction, 'Amount' is the transaction amount, and 'Class' indicates fraud (1) or not (0).
+
+Due to class imbalance, accuracy should be measured using the Area Under the Precision-Recall Curve (AUPRC) rather than confusion matrix accuracy.
+
+For more resources, check the transaction data simulator from the practical handbook on Machine Learning for Credit Card Fraud Detection https://fraud-detection-handbook.github.io/fraud-detection-handbook/Chapter_3_GettingStarted/SimulatedDataset.html
+
+
 ## Methodology
 
 1. **Data Handling**: Loaded, cleaned, and scaled data; addressed imbalances.
