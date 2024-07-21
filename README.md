@@ -36,7 +36,7 @@ For more resources, check the transaction data simulator from the practical hand
 
 ## Conclusion
 
-The **Neural Network** model is the best performer for credit card fraud detection, achieving the highest F1-score and recall, making it the most reliable.
+The **KNN** model is the best performer for credit card fraud detection, achieving the highest F1-score and recall, making it the most reliable.
 
 ## Future Work
 
